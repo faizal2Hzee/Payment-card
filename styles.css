@@ -145,3 +145,42 @@ body::-webkit-scrollbar{
     margin-left: 10px;
     
 }
+@media (max-width:450px){
+    .amountbox{
+        height: 25%;
+
+        display: flex;
+        flex-direction: column;
+    }
+    .leftbox{
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+        width: 20%;
+        height:30%;
+    }
+    .imgbox{
+        width:fit-content;
+        height:fit-content;
+        display: flex;
+        justify-content: center;
+        align-items:center ;
+        margin-bottom: -15px;
+
+        
+        width:70%;
+
+    }
+
+    img{width:fit-content;
+        height:fit-content;
+        scale: 1.8;
+
+     
+    } 
+    .rightbox {
+        margin-bottom: 5px;
+         margin-left: 10px;
+    }
+
+}
